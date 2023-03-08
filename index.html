@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="form-page">
+      <form id="sign-up">
+        <button type="button" id="close-button">x</button>
+        <label for="email">E-mail <input type="email" id="email" /></label>
+        <label for="country">
+          Country
+          <select name="" id="country">
+            <option value="Switzerland">Switzerland</option>
+            <option value="France">France</option>
+            <option value="Germany" selected>Germany</option>
+          </select>
+        </label>
+        <label for="zip"> ZIP Code<input type="number" id="zip" /> </label
+        ><label for="pass"> Password<input type="number" id="pass" /> </label
+        ><label for="pass2">
+          Confirm Password
+          <input type="number" id="pass2" />
+        </label>
+        <span class="success">High five!</span>
+        <span class="fail"
+          >Please make sure you filled all fields in the correct format.</span
+        >
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
